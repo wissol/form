@@ -134,7 +134,7 @@ textarea {
 	width: 100%;
 	float: none;
 	margin: 1em auto;
-	padding: 4em 0;
+	padding: 1em;
 }
 
 textarea:focus, input:focus, select:focus {
