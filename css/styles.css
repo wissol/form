@@ -1,0 +1,201 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
+body { 
+	font-family: 'Merriweather', serif;
+}
+
+button, input, optgroup, select, textarea { 
+	font-family: 'Merriweather', serif;
+}
+
+select, button {
+	-ms-box-sizing:content-box;
+	-moz-box-sizing:content-box;
+	-webkit-box-sizing:content-box; 
+	box-sizing:content-box;
+}
+
+header, footer {
+	text-align: center;
+}
+
+main, footer {    
+	margin: auto;
+	width: 90%;
+}
+
+footer {
+	color: #9E9E9E;
+	font-style: italic;
+}
+
+div {
+	margin: 1em 0;
+	width: 100%;
+}
+
+body > header {
+	background: black;
+}
+
+main > header {
+	border-bottom: solid thick black;
+	padding-bottom: 40px;
+}
+
+h1 {
+	font-size: 1em;
+	margin: -5px 0 auto 0;
+	color: white;	
+	text-transform: uppercase;
+	padding: 40px;
+	background: #2d3945;
+}
+
+/* Forms */
+
+form {
+	border-top: solid thin black;
+	margin-top: 2px;
+}
+
+
+input, button, select, textarea {
+	width: 100%;
+	border-radius: 1%;
+	background: #eff0f1;
+	padding: 1em 0.3em;
+
+}
+
+select{
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent url('../img/arrow-down.svg') no-repeat;
+    background-position:  center right;
+    background-size: 7%;
+}
+
+legend {	
+	font-size: 1.4em;
+	padding: 25px 0;
+}
+
+fieldset fieldset legend {
+	font-size: 1rem;
+	padding: 0;
+}
+
+fieldset {
+	border: none;
+}
+
+.border-bottom {
+	border-bottom: thin solid black;
+}
+
+button {
+	background: #4ebbb5;
+	color: white;
+}
+
+::-webkit-input-placeholder {
+	text-align: right;
+}
+
+::-moz-placeholder {
+	text-align: right;
+}
+
+:-ms-input-placeholder {
+	text-align: right;
+}
+
+:-moz-placeholder {
+	text-align: right;
+}
+
+
+input[type="checkbox"],
+input[type="radio"] {
+	width: initial;
+	display: inline-block;
+}
+
+.label_right {
+	padding: 0 0 0 1em;
+	display: inline;
+}
+
+label{
+	display: block;
+	margin-bottom: 1em;
+}
+
+textarea {
+	width: 100%;
+	float: none;
+	margin: 1em auto;
+	padding: 4em 0;
+}
+
+button {
+	margin: auto;
+	text-align: center;
+	display: block;
+}
+
+#zip {
+	width: 11ch;
+}
+
+
+@media (min-width: 768px) {
+
+body {
+	background: url(../img/post_box.jpg);
+	background-size: cover;
+
+}
+
+main, footer {
+	width: 50%;
+	max-width: 768px;
+	background: rgba(255,255,255,.9);
+}
+
+main {
+	padding: 0 40px;
+}
+
+footer {
+	padding: 10px 40px;
+}
+
+fieldset div {
+	margin-bottom: .5em;
+}
+
+fieldset div:after {
+    content: " "; 
+    display: table; 
+    clear:both;
+}
+
+label {
+	width: 30%;
+	display: inline-block;
+	float: left;
+	padding: 1em 0;
+	box-sizing:border-box;
+	text-shadow: 1px 1px 1px #FFF;	
+}
+
+
+input, select {
+	width: 70%;
+	float: left;
+	box-sizing:border-box;
+}
+
+}
