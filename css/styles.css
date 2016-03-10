@@ -196,6 +196,10 @@ label {
 	text-shadow: 1px 1px 1px #FFF;	
 }
 
+.long_label {
+	width:100%;
+}
+
 
 input, select {
 	width: 70%;
