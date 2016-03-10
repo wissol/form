@@ -140,16 +140,16 @@
 				<fieldset>
 					<legend>Newsletter format</legend>
 					<div>
-						<input type="radio" id="HTML_format" value="html_format" checked>
+						<input type="radio" id="HTML_format" value="html_format" name="newsletter_format" checked>
 						<label for="HTML_format" class="label_right">HTML</label>
 					</div>
 					<div>
-						<input type="radio" id="text_format" value="text_format">
+						<input type="radio" id="text_format" value="text_format" name="newsletter_format">
 						<label for="text_format" class="label_right">Plain Text</label>
 					</div>
 
 					<fieldset>
-						<label for="other_topics" class="long-label">Other Topics you would like to hear about</label>
+						<label for="other_topics" class="long_label" name="newsletter_format">Other Topics you would like to hear about</label>
 						<textarea rows="4" name="others" id="other_topics"></textarea>					
 					</fieldset>
 
@@ -157,7 +157,7 @@
 				<fieldset>
 
 				<div>
-		    		<button type="submit">Sign up</button>
+		    		<button type="submit" id="sing_up_button">Sign up</button>
 		    	</div>
 		    	</fieldset>
 
