@@ -155,7 +155,7 @@ button {
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 760px) {
 
 body {
 	background: url(../img/post_box.jpg);
